@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <title>Piano Simulator</title>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <h2>Piano Lofi Beats</h2>
+
+         <div class="column volume-piano">
+            <span>Volume Piano</span> <input type="range" name="" id="">
+        </div>
+
+         <div class="column volume-beats">
+            <span>Volume Beats</span> <input type="range" name="" id="">
+        </div>
+
+         <div class="column keys-check">
+            <span>Teclas</span> <input type="checkbox" checked>
+        </div>
+        </header>
+        
+        <div> 
+            <ul class="piano-keys">
+            <li class="key white" data-key="a"><span>a</span></li>
+            <li class="key black" data-key="w"><span>w</span></li>
+            <li class="key white" data-key="s"><span>s</span></li>
+            <li class="key black" data-key="e"><span>e</span></li>
+            <li class="key white" data-key="d"><span>d</span></li>
+            <li class="key black" data-key="f"><span>f</span></li>
+            <li class="key white" data-key="t"><span>t</span></li>
+            <li class="key black" data-key="g"><span>g</span></li>
+            <li class="key white" data-key="y"><span>y</span></li>
+            <li class="key black" data-key="h"><span>h</span></li>
+            <li class="key white" data-key="u"><span>u</span></li>
+            <li class="key black" data-key="j"><span>j</span></li>
+            <li class="key white" data-key="k"><span>k</span></li>
+            <li class="key black" data-key="o"><span>o</span></li>
+            <li class="key white" data-key="l"><span>l</span></li>
+            <li class="key black" data-key="p"><span>p</span></li>
+            <li class="key white" data-key=";"><span>;</span></li>
+            <li class="key black" data-key="w"><span>w</span></li>
+            <li class="key white" data-key="s"><span>s</span></li>
+            <li class="key black" data-key="e"><span>e</span></li>
+            <li class="key white" data-key="d"><span>d</span></li>
+            <li class="key black" data-key="f"><span>f</span></li>
+            <li class="key white" data-key="t"><span>t</span></li>
+            <li class="key black" data-key="g"><span>g</span></li>
+            <li class="key white" data-key="y"><span>y</span></li>
+            <li class="key black" data-key="h"><span>h</span></li>
+            <li class="key white" data-key="u"><span>u</span></li>
+            <li class="key black" data-key="j"><span>j</span></li>
+            <li class="key white" data-key="k"><span>k</span></li>
+            <li class="key black" data-key="o"><span>o</span></li>
+            <li class="key white" data-key="l"><span>l</span></li>
+            <li class="key black" data-key="p"><span>p</span></li>
+            <li class="key white" data-key=";"><span>;</span></li>
+            
+          </ul>
+        </div>
+       
+        <div>
+            <ul class="lofi-keys">
+                <li class="keys yellow" data-keys="0"><span>0</span></li>
+                <li class="keys blue" data-keys="1"><span>1</span></li>
+                <li class="keys pink" data-keys="2"><span>2</span></li>
+                <li class="keys purple" data-keys="3"><span>3</span></li>
+                <li class="keys yellow" data-keys="4"><span>4</span></li>
+                <li class="keys blue" data-keys="5"><span>5</span></li>
+                <li class="keys pink" data-keys="6"><span>6</span></li>
+                <li class="keys purple" data-keys="7"><span>7</span></li>
+                <li class="keys yellow" data-keys="8"><span>8</span></li>
+                <li class="keys blue" data-keys="9"><span>9</span></li>
+                <li class="keys purple" data-keys="7"><span>7</span></li>
+                <li class="keys yellow" data-keys="8"><span>8</span></li>
+                <li class="keys blue" data-keys="9"><span>9</span></li>
+              </ul>
+        </div>
+          
+    </div>
+    
+    <script src="./src/scripts/engine.js"></script>
+    <script src="./src/scripts/beat.js"></script>
+</body>
+</html>
